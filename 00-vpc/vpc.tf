@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/vasanth-mvvr/expense-aws-terraform.git?ref=main"
+  source = "git::https://github.com/vasanth-mvvr/roboshop-aws-terraform-vpc.git?ref=main"
   common_tags = var.common_tag
   public_subnet_cidrs = var.public_subnet
   private_subnet_cidrs = var.private_subnet
