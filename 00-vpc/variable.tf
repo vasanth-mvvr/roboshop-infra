@@ -7,7 +7,7 @@ variable "environment" {
   default = "dev"
 }
 
-variable "common_tags" {
+variable "common_tag" {
   type = map
   default = {
     Name = "roboshop"
